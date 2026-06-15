@@ -3,8 +3,8 @@
 A full-stack task management web application built with the MERN stack.
 
 ## 🚀 Live Demo
-- Frontend: [Netlify URL here]
-- Backend: [Render URL here]
+- Frontend: https://mubeena-task-manager.netlify.app
+- Backend: https://task-manager-28sx.onrender.com
 
 ## ✨ Features
 - User authentication (Register/Login) with JWT
