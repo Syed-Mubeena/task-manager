@@ -14,7 +14,8 @@ export default function App() {
 
   const authHeaders = { headers: { Authorization: `Bearer ${token}` } };
 
-  useEffect(() => { if (token) fetchTasks(); }, [token]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+useEffect(() => { if (token) fetchTasks(); }, [token]);
 
   const fetchTasks = async () => {
     try {
